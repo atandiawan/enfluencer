@@ -5,6 +5,8 @@
 
 span.judul {
   color:#156b65 !important;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
 }
 
 div.isi{
