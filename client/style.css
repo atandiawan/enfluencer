@@ -1,0 +1,25 @@
+.join-button{
+  margin: 5px;
+  display: "inline-block";
+}
+
+span.judul {
+  color:#156b65 !important;
+}
+
+div.isi{
+  width:100% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio{
+  margin-left: 20px;
+}
+
+.baris{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-style:solid;
+  border-width:thin;
+}
