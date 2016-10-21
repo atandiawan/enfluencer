@@ -91,7 +91,7 @@ let updateDatabase = function(user_information, media,self,callback){
 
 
 let getAllUsers = function(callback){
-  Users.find({}, function(err, result){
+  Users.find({}).sort({"username":-1}).exec(function(err, result){
     if(err){
       callback({message:"error", details: err})
     } else {

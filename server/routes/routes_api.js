@@ -22,13 +22,13 @@ router.get('/submit/callback', function(req,res,next){
           instagram_api.isUserExistInDB(result.user.username, function(is){
             if(is==true){
               instagram_api.updateDatabase(result,media,self,function(hasil){
-                res.redirect("http://localhost:8000/submit")
+                res.redirect("http://localhost:8000/")
                 // location.reload(true)
                 // window.location.href = "http://localhost:8000/"
               })
             } else {
               instagram_api.saveToDatabase(result,media,self, function(hasil){
-                res.redirect("http://localhost:8000/submit")
+                res.redirect("http://localhost:8000/")
                 // location.reload(true)
                 // window.location.href = "http://localhost:8000/"
               })
